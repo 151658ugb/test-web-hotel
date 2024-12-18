@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เดอะรูม ทวีวัฒนา กรุงเทพฯ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/gif" href="logo_icon.png" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <a href="index.html">
+            <div class="logo">
+                <img src="logo_title.png" alt="logo-img" class="logo-img">
+                <h3 class="text">เดอะรูม ทวีวัฒนา กรุงเทพฯ<br>The Room Thawi Watthana Bangkok</h3>
+            </div>
+        </a>
+        <div class="hamburger" id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="#slide">หน้าแรก</a></li>
+                <li><a href="#services">บริการ</a></li>
+                <li><a href="#">ราคา</a></li>   
+                <li><a href="#location">สถานที่ตั้ง</a></li>
+                <li><a href="#contact">ช่องทางติดต่อ</a></li>
+                <li class="language-toggle">
+                    <a href="#">
+                        <img src="language.png" alt="" class="language-toggle-icon">
+                    </a>
+                    <div class="dropdown">
+                        <a href="index-th.html" class="language-option" data-lang="th">
+                            <img src="th.png" alt="ภาษาไทย" class="language-icon"> ไทย
+                        </a>
+                        <a href="index-en.html" class="language-option" data-lang="en">
+                            <img src="eng.png" alt="English" class="language-icon"> EN
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>        
+    </header>   
+
+
+    <!-- ส่วนสไลด์รูปภาพ -->
+    <section id="slide" class="image-slider">
+        <div class="slider-images">
+            <img src="slide-1.jpg" alt="Image 1" class="slider-image">
+            <img src="slide-2.jpg" alt="Image 2" class="slider-image">
+            <img src="slide-3.jpg" alt="Image 3" class="slider-image">
+        </div>
+    </section>
+           
+
+    <!-- ส่วนจองห้องพัก -->
+    <section id="booking" class="booking-section">
+        <div class="booking-container">
+            <!-- ข้อความด้านขวา -->
+            <div class="booking-text">
+                <p>บริการห้องพัก&nbsp; รายเดือน&nbsp; รายวัน&nbsp; รายชั่วโมง</p>
+            </div>
+
+            <!-- กรอบด้านซ้าย -->
+            <div class="booking-button">
+                <!-- ลิงก์ไปยังหน้าจองห้องพัก -->
+                <a href="https://reservation.roomscope.com/2378/th" target="_blank">
+                    <p>จองห้องพัก</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services" class="services">
+        <!-- ส่วนหัว -->
+            <h2 class="services-header">สิ่งอำนวยความสะดวก และบริการ</h2>
+
+        <div class="service-container">
+            <div class="service-item">
+                <img src="24-hr.svg" class="service-image">
+                <p class="service-text">บริการ 24 ชั่วโมง</p>
+            </div>
+            <div class="service-item">
+                <img src="parking.svg" class="service-image">
+                <p class="service-text">ที่จอดรถ</p>
+            </div>
+            <div class="service-item">
+                <img src="cctv.svg" class="service-image">
+                <p class="service-text">CCTV</p>
+            </div>
+            <div class="service-item">
+                <img src="wifi.svg" class="service-image">
+                <p class="service-text">Wi-Fi</p>
+            </div>
+            <div class="service-item">
+                <img src="coffee.svg" class="service-image">
+                <p class="service-text">กาแฟสด</p>
+            </div>
+            <div class="service-item">
+                <img src="mini-mart.svg" class="service-image">
+                <p class="service-text">Mini Mart</p>
+            </div>
+            <div class="service-item">
+                <img src="restaurant.svg" class="service-image">
+                <p class="service-text">ร้านอาหาร</p>
+            </div>
+            <div class="service-item">
+                <img src="laundry.svg" class="service-image">
+                <p class="service-text">ร้านซัก-รีด</p>
+            </div>
+        </div>
+        <div class="footer-message">
+            สินค้าและบริการบางประเภทมีค่าบริการ สามารถสอบถามข้อมูลเพิ่มเติมเกี่ยวกับสินค้าและบริการได้ที่สำนักงาน
+        </div>
+    </section>
+  
+
+
+
+    <!-- ส่วนของสถานที่ตั้ง -->
+    <section id="location" class="location">
+        <h2>สถานที่ตั้ง</h2> <!-- เพิ่มหัวข้อ -->
+        <p>43 ซอยทวีวัฒนา-กาญจนาภิเษก 2/2 ถนนทวีวัฒนา-กาญจนาภิเษก แขวงทวีวัฒนา เขตทวีวัฒนา กรุงเทพมหานคร</p> <!-- เพิ่มรายละเอียด -->
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15501.32266868095!2d100.4040528!3d13.758922!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2975d5705897d%3A0x22165a6f18a6f0dc!2sThe%20Room%20Hotel!5e0!3m2!1sen!2sth!4v1732776783660!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>    
+    
+
+    
+    <!-- ส่วนของช่องทางติดต่อ -->
+    <section id="contact">
+        <div class="container">
+            <!-- ด้านซ้าย -->
+            <div class="left-section">
+                <div class="header">
+                    <div class="logo">
+                        <img src="logo_title.png" alt="" class="logo-icon">
+                    </div>
+                    <div class="header-content">
+                        <div class="header-text">
+                            เดอะรูม ทวีวัฒนา กรุงเทพฯ<br>
+                            The Room Thawi Watthana Bangkok
+                        </div>
+                        <div class="booking">
+                            <a href="https://reservation.roomscope.com/2378/th" target="_blank">
+                                <button class="booking-btn">จองห้องพัก</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ด้านขวา -->
+            <div class="right-section">
+                <div class="contact-item">
+                    <img src="tell.png" alt="โทรศัพท์" class="contact-icon">
+                    <span class="contact-text">02-007-5973<br>02-007-5983</span>
+                </div>
+                <div class="contact-item">
+                    <img src="line.png" alt="Line" class="contact-icon">
+                    <a href="https://lin.ee/5Irtj3o" target="_blank">
+                        <span class="contact-text">@Theroom<font color="#ff4800">&ensp;(คลิก)</font></span>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <img src="mail.png" alt="Email" class="contact-icon">
+                    <span class="contact-text">theroom2022.official@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <img src="fb.png" alt="Facebook" class="contact-icon">
+                    <a href="https://web.facebook.com/Theroom42Sai2" target="_blank">
+                        <span class="contact-text">The room ทวีวัฒนาฯ<font color="#ff4800">&ensp;(คลิก)</font></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <footer>
+        <p id="footer-text">© <span id="year"></span> THE ROOM GROUP (2022) CO.,LTD. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
